@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<script src="https://kit.fontawesome.com/b3180d13bd.js" crossorigin="anonymous"></script>
+
+<body class="background-color" style="background-color: #fffcef;">
+
+<div class="page-margins">
+    <div class="hero-image-container">
+        <img class="verify-hero" src="images/E-Verify.png">
+    </div>
+
+    <div class="page-header">LDD Verify</div>
+
+    <div style="width: 100%; display: inline-block;">
+        <div class="row">
+            <div class="column">
+                <p class="header">Problem</p>
+                <p class="body leftside justify">Long and arduous progress for entering and verifying ID information to complete legal property transfers.</p>
+    
+            </div>
+    
+            <div class="column">
+                <span>
+                    <p class="header">Users</p>
+                    <p class="body justify">Ontario legal professionals. This applies to lawyers as well as others in the practice of real estate law such as paralegals, legal clerks and legal assistants.</p>
+                </span>
+            </div>
+        </div>               
+    </div>
+
+    <div style="width: 100%; display: inline-block;">
+        <div class="row">
+            <div class="column">
+                <p class="header">Goal</p>
+                <p class="body leftside justify">Make an application with a strong enough user experience that users would opt to use it instead of manually entering the information to a form on the main application.</p>
+    
+            </div>
+    
+            <div class="column">
+                <span>
+                    <p class="header">Result</p>
+                    <p class="body justify">A clean, straightforward application that is set up for users to effectively verify the identities of those involved in real estate transactions. The platform was also built to seamlessly integrate new features at any point.</p>
+                </span>
+            </div>
+        </div>            
+    </div>
+
+    <div style="margin-top: -20px;">
+        <p class="section-header">Getting started</p>
+    </div>
+
+    <div class="panel">
+        <span class="left" style="width: 15%;">
+           <img src="images/Icons/Started.png">
+        </span>
+        <span class="right">
+            <p class="header"><b>Overview</b></p>
+            <div class="body" class="body justify">
+                <p>RealtiWeb is an application built by Canadian legal software company LDD. The web application's purpose is to assist in the closing of legal transactions across Canada. This includes final documents, property registration, and as relevant to this project: <b>verifying the identity of buyers.</b></p>
+                <p>LDD decided to build an application that would operate in conjunction with RealtiWeb to verify the identification pieces of prospective home buyers.</p>
+                <p>As the lead interface and interaction designer, it was my responsibility to see out how this application would work.</p>
+            </div>
+        </span>
+    </div>
+
+    <div class="panel">
+        <span class="left">
+            <img style="margin-top: 175px;" src="images/Icons/Computer.png">
+         </span>
+        <span class="right">
+            <p class="header"><b>Reviewing the existing Process</b></p>
+            <img class="old-verify" src="images/OldVerify.png">
+            <span>
+                <ul class="list">
+                    <li>Confusing layout - some steps are necessary while others aren’t with no indication of what exactly are. For lawyers into their careers, this may be a clear route, but to those new to the legal profession, it is overwhelming.</li>
+                    <li>Too much information to manually enter.</li>
+                    <li>No clear step by step process defined.</li>
+                </ul>
+            </span>
+        </span>
+    </div>
+
+    <div class="panel">
+        <span class="left">
+           <img style="margin-top: 22px;" src="images/Icons/Takeaway.png">
+        </span>
+        <span class="right">
+            <p class="header"><b>Solution Outline</b></p>
+            <p class="body" class="body justify">
+                To bypass this arduous process, an app would be created that would simply scan a piece of ID and import it into the specific file in question.
+            </p>
+        </span>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <p class="section-header">Designing</p>
+    <div>
+
+    <div>
+        <p class="body">Going into the design process for this application, I knew the only way users would opt to download and use a mobile app rather than manually enter the information into the web application is if it were significantly easier than the existing process. What I did not have control over was the steps involved in opening one's phone, downloading the app and opening it, which are extra steps the users would previously not need to take to verify an ID. This means that the user experience of the application would have to be as simple and straightforward as possible to outweigh what is beyond my control.</p>
+    
+        <p class="body"><b>I drew the following concept to establish the first ideas about how the user process of LDD Verify would flow.</b></p>
+    </div>
+
+    <div style="width: 100%;">
+        <img  style="width: 100%;" src="images/Verify-First-Sketch.png">
+    </div>
+
+    <div style="margin-top: 20px;">
+        <p class="section-header">Reviewing the concept</p>
+        <p class="header">What worked:</p>
+        <p class="body">The simplicity of some aspects, such as the home page which served one function, or the scanning page which was designed to provide basic instructions without distracting from the camera view on screen proved to be a strength of the concept. Some smaller concepts, like automatically matching the scanned identification to a file also became central to the final usability.</p>
+    <div>
+
+    <div style="margin-top: 20px;">
+        <p class="header">What needed improvement</p>
+        <p class="body"><b>Navigation throughout the application:</b> Originally, the concept was split into three distinct pages of access. The home screen, which showed a list of recent scans and actions upon that data; the scan screen, and a setting screen. I came to realize that this was not the right approach for a number of reasons.
+            For one, since scanning was the primary function of the app, it should be entrenched into the initial view in a far more clear way, having it on a separate navigation screen would provide several difficulties. For example, though the camera view is the first screen in the scanning process, it isn’t the only, and showing another screen subsequently opens up the opportunity of the user becoming confused.
+            Additionally, the settings screen had no reason to be a primary navigation item as it would be rarely used, a far more apt position would be in a hamburger menu in the top left. This way, the functionality exists without adding unnecessary screens.
+            Finally, though the app at the point of development has only one function, it may down the road grow to include more tools, and dedicating a bottom navigation to just one function would create limitations and new problems preventing growth of the app.
+        </p>
+        <p class="body">
+            <b>Adding to a file:</b> Though the matched file functionality was a strength of the application from the beginning, users may still need to add manually if the same client has multiple files with the law firm. Therefore, a list with a search function must appear. The original design had this search function underneath the matched file. However, the search field is always at the top of our web applications and the same principle should be applied to the mobile app.
+        </p>
+    <div>
+
+    <div style="margin-top: 20px;">
+        <p class="header">Re-design concept</p>
+        <img style="width: 100%;" src="images/Verify-Second-Sketch.png">
+    </div>
+
+    <div style="margin-top: 20px;">
+        <p class="header">Full Design</p>
+        <img style="width: 100%;" src="images/Verify-Screens.png">
+    </div>
+</div>
+
+<!--div style="width: 100%; margin-left: -300px; margin-right: -300px;">
+    <img src="images/Verify-Span.png" style="max-width: 200%; max-height: 100%; bottom: 0; left: 0; margin: auto; position: relative; right: 0; -o-object-fit: contain; object-fit: contain;">
+</div-->
+
+<div>
+    <div style="margin-top: 20px;">
+        <p class="section-header">Reflection</p>
+    <div>
+
+    <div>
+        <div class="body" style="margin-bottom: 7px;"><b>Task time with WebApp</b></div>
+        <div style="color: #C5BD9C; background-color: #C5BD9C; border-radius: 3px;">Click Dev Tools</div>
+        <div class="body" style="margin-bottom: 7px;"><em>Average: 3:18</em></div>
+    </div>
+
+    <div style="margin-top: 12px;">
+        <div class="body" style="margin-bottom: 7px;"><b>Task time with WebApp</b></div>
+        <div style="color: #63615A; background-color: #63615A; border-radius: 3px; width: 14.347826086957%;">Dev</div>
+        <div class="body" style="margin-bottom: 7px;"><em>Average: 20s</em></div>
+    </div>
+
+    <div>
+        <p class="body">LDD Mobile Verify was designed in less than two weeks. Because of this, little research was able to be conducted, and this app's process could best be described as a sprint. Nonetheless, I believe that my process for LDD Mobile Verify made the process of scanning identification items as simple as it possibly could be.</p>
+    </div>
+
+    <div class="footer-card">
+        <span style="width: 15%;">
+           <img src="images/ProfilePhoto.png">
+        </span>
+        <span style="width: 85%;">
+            <p class="header"><b>Let's Talk More</b></p>
+            <p class="body" class="body justify">
+                This was a huge project, and I couldn't come close to doing it justice with this case study, which is why I would love to have a more detailed conversation with you about it. So please, reach out to me!
+            </p>
+            <span class="contact-button"><a href="mailto:benhughes729@gmail.com" target="_blank">Contact Me</a></span>
+        </span>
+    </div>
+</div>
+
+</body>

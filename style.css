@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+    @font-face {
+    font-family: Futura;
+    src: local('Futura Std');
+    }
+
+
+/* General */
+.body{font-family: open sans; font-size: 15px; color: #404040;}
+.row {display: flex;}
+.column {flex: 50%;}
+b{color: #63615A;}
+.page-margins{margin-left: 15%; margin-right: 15%;}
+.background-color{background-color: #fffcef;}
+.justify{text-align: justify;}
+
+/*images*/
+.old-verify{width: 100%;}
+
+/* Headers */
+.header{font-weight: bold; font-size: 17px; color: #63615A; font-family: futura;}
+.page-header{font-family: futura; margin-top: -50px; color: #63615A; font-size: 25px; border-bottom: 2px solid #63615A; padding-bottom: 5}
+.section-header{width: 100%; font-family: futura; font-size: 17px; color: #63615A; border-bottom: 2px solid #63615A; padding-bottom: 5px;}
+
+/* Overview Table */
+.overview-table{width: 100%; display: inline-block;}
+.leftside{width: 85%; text-align: justify;}
+
+/* Started Panels */
+.panel{display: flex; margin-top: 15px;}
+.panel .left{width: 15%;}
+.panel .left img{width: 80px; margin-left: 20px;}
+.panel .right{width: 85%;}
+.panel li{width: 100%; margin-left: -40px;}
+.panel ul{font-family: open sans; color: #63615A; font-size: 15px; margin-bottom: 5px;}
+
+/* Hero Image */
+.hero-image-container{position: relative; margin: auto; top: 400px; left: 50%; right: 50%; transform: translate(-50%, -50%); display: inline-block; margin-bottom: 100px;}
+.verify-hero{width: 700px;}
+
+/* Footer Card */
+.footer-card{display: flex; margin-top: 15px; margin-bottom: 120px}
+.footer-card img{margin-top: 45px; width: 80px; margin-left: 20px; border-radius: 50%;}
+.contact-button{padding: 7px 30px 7px 30px; border: 2px solid #C5BD9C; border-radius: 3px; font-family: futura; cursor: pointer;}
+.contact-button a{text-decoration: none; color: #63615A;}
+
+@media only screen and (max-width: 1000px) {
+
+    /* Headers */
+    .panel .left{display: none;}
+    .panel ul{font-family: open sans; color: #63615A; font-size: 15px; margin-left: 20px; width: 100%;}
+    
+    }
+
+
+@media only screen and (max-width: 600px) {
+.page-margins{margin-left: 5%; margin-right: 5%;}
+.justify{text-align: left;}
+
+.hero-image-container{position: relative; margin: auto; top: 40px; left: 50%; right: 50%; transform: translate(-50%, 0%); display: inline-block; margin-bottom: 100px;}
+.verify-hero{width: 100%;}
+
+/* Headers */
+.panel .left{display: none;}
+.panel ul{font-family: open sans; color: #63615A; font-size: 15px; margin-left: 20px; width: 100%;}
+
+
+/* Headers */
+.page-header{font-size: 20px; border-bottom: 1px solid;}
+.section-header{font-size: 14px;}
+
+}
