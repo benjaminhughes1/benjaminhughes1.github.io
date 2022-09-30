@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
     @font-face {
-    font-family: Futura;
+    font-family: futura, open sans;
     src: local('Futura Std');
     }
+
+    
 
 
 /* General */
@@ -19,6 +21,7 @@ b{color: #63615A;}
 .web{display: block;}
 .mobile{display: none;}
 .note{font-family: open sans; color: #404040; font-size: 14px; font-style: oblique;}
+.ninety-five{width: 95%;}
 
 /* Home Page */
 .hero-text{text-align: center; padding-top: 50px; font-weight: bold; font-family: open sans; font-size: 38px; color: #C5BD9C;}
@@ -27,7 +30,7 @@ b{color: #63615A;}
 .hero-work1{text-align: right; margin-top: -40px; font-family: open sans; font-size: 15px; color: #63615A; margin-right: 5px;}
 .hero-work2{text-align: left; margin-top: -40px; font-family: open sans; font-size: 15px; color: #63615A; margin-left: 5px;}
 
-.theheader{width: 100%; border-bottom: 1px solid #63615A; display: inline-block; height: 50px; background-color: #ffff; font-family: futura; color: #63615A;}
+.theheader{width: 100%; border-bottom: 1px solid #63615A; display: inline-block; height: 50px; background-color: #ffff; font-family: futura, open sans; color: #63615A;}
 .header-left{float: left; font-weight: bold; margin-left: 5%; margin-top: 10px; font-size: 20pt;}
 .header-right{float: right; margin-right: 5%; margin-top: 13px; font-weight: normal;}
 
@@ -45,15 +48,15 @@ a{text-decoration: none !important; color: #63615A;}
 .RW-Home-Hero{display: flex; width: 80%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
 .RW-Home-Hero:hover{display: flex; width: 90%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
 
-.page-texts{text-decoration: none !important; font-family: futura; color: #63615A; margin-bottom: -7px;}
+.page-texts{text-decoration: none !important; font-family: futura, open sans; color: #63615A; margin-bottom: -7px;}
 
 /*images*/
 .old-verify{width: 100%;}
 
 /* Headers */
-.header{font-weight: bold; font-size: 17px; color: #63615A; font-family: futura;}
-.page-header{font-family: futura; margin-top: -50px; color: #63615A; font-size: 25px; border-bottom: 2px solid #63615A; padding-bottom: 5}
-.section-header{width: 100%; font-family: futura; font-size: 17px; color: #63615A; border-bottom: 2px solid #63615A; padding-bottom: 5px;}
+.header{font-weight: bold; font-size: 17px; color: #63615A; font-family: futura, open sans;}
+.page-header{font-family: futura, open sans; margin-top: -50px; color: #63615A; font-size: 25px; border-bottom: 2px solid #63615A; padding-bottom: 5}
+.section-header{width: 100%; font-family: futura, open sans; font-size: 17px; color: #63615A; border-bottom: 2px solid #63615A; padding-bottom: 5px;}
 
 /* Overview Table */
 .overview-table{width: 100%; display: inline-block;}
@@ -74,7 +77,7 @@ a{text-decoration: none !important; color: #63615A;}
 .hero-image-container{position: relative; margin: auto; top: 400px; left: 50%; right: 50%; transform: translate(-50%, -50%); display: inline-block; margin-bottom: 100px;}
 .verify-hero{width: 700px;}
 .issues-hero{width: 600px;}
-.rw-hero{width: 900px; margin-bottom: 50px;}
+.rw-hero{width: 800px; margin-bottom: 30px;}
 .rw-hero-2{width: 900px;}
 .hero-image-container-rw{position: relative; margin: auto; top: 250px; left: 50%; right: 50%; transform: translate(-50%, -50%); display: inline-block;}
 .hero-image-container-issues{position: relative; margin: auto; margin-bottom: 80px; top: 250px; left: 50%; right: 50%; transform: translate(-50%, -50%); display: inline-block;}
@@ -82,7 +85,7 @@ a{text-decoration: none !important; color: #63615A;}
 /* Footer Card */
 .footer-card{display: flex; margin-top: 15px; margin-bottom: 120px}
 .footer-card img{margin-top: 45px; width: 80px; margin-left: 20px; border-radius: 50%;}
-.contact-button{padding: 7px 30px 7px 30px; border: 2px solid #C5BD9C; border-radius: 3px; font-family: futura; cursor: pointer;}
+.contact-button{padding: 7px 30px 7px 30px; border: 2px solid #C5BD9C; border-radius: 3px; font-family: futura, open sans; cursor: pointer;}
 .contact-button a{text-decoration: none; color: #63615A;}
 
 
@@ -97,7 +100,7 @@ a{text-decoration: none !important; color: #63615A;}
     .big-quotes{display: none;}
     .mobile-only{display: inline-block;}
     .body{text-align: left;}
-    .rw-hero{width: 800px; margin-bottom: 50px;}
+    .rw-hero{width: 600px; margin-bottom: 100px;}
     .rw-hero-2{width: 800px;}
     .leftside{width: 85%;}
     }
@@ -111,10 +114,12 @@ a{text-decoration: none !important; color: #63615A;}
 .column {margin-top: 20px;}
 .body{text-align: left;}
 .width-full-mobile{width: 100%;}
-.rw-hero-2{width: 450px;}
+.rw-hero{width: 350px; margin-bottom: 185px;}
+.rw-hero-2{width: 450px; }
 .leftside{width: 100%;}
 .web{display: none;}
 .mobile{display: block;}
+.ninety-five{width: 100%;}
 
 .quote{width: 100%;}
 .big-quotes{display: none;}
@@ -125,7 +130,7 @@ a{text-decoration: none !important; color: #63615A;}
 .hero-work1{display: none;}
 .hero-work2{display: none;}
 
-.theheader{width: 100%; border-bottom: 1px solid #63615A; display: inline-block; height: 50px; background-color: #ffff; font-family: futura; color: #63615A;}
+.theheader{width: 100%; border-bottom: 1px solid #63615A; display: inline-block; height: 50px; background-color: #ffff; font-family: futura, open sans; color: #63615A;}
 .header-left{float: left; font-weight: bold; margin-left: 5%; margin-top: 10px; font-size: 20pt;}
 .header-right{float: right; margin-right: 5%; margin-left: 35px; margin-top: 13px; font-weight: normal;}
 
@@ -143,7 +148,7 @@ a{text-decoration: none !important; color: #63615A !important;}
 .RW-Home-Hero{display: flex; width: 80%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
 .RW-Home-Hero:hover{display: flex; width: 90%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
 
-.page-texts{text-decoration: none !important; font-family: futura; color: #63615A; margin-bottom: -7px;}
+.page-texts{text-decoration: none !important; font-family: futura, open sans; color: #63615A; margin-bottom: -7px;}
 
 
 /* Headers */
@@ -161,6 +166,6 @@ a{text-decoration: none !important; color: #63615A !important;}
 .about-container{right: 13%; margin: auto; position: relative;}
 .profilepic-background{background-color: #EAE1BC; width: 280px; height: 300px; border-radius: 206pt 206pt 0pt 0pt; z-index: 1; position: absolute;}
 .profilepic{width: 170px; transform: translate(34%, 30%); border-radius: 50%;}
-.about-text{z-index: 1; color: #63615A;  position: fixed; padding: 10px 40px 10px 10px; font-size: 18px; background-color: #EAE1BC; font-family: futura; margin: 320px 0px 2px 10px;}
+.about-text{z-index: 1; color: #63615A;  position: fixed; padding: 10px 40px 10px 10px; font-size: 18px; background-color: #EAE1BC; font-family: futura, open sans; margin: 320px 0px 2px 10px;}
 .projects-container{position: absolute; margin-top: 800px; left: 7%;}
 }
