@@ -103,6 +103,16 @@ a{text-decoration: none !important; color: #63615A;}
     .rw-hero{width: 600px; margin-bottom: 100px;}
     .rw-hero-2{width: 800px;}
     .leftside{width: 85%;}
+
+    .LDDVerify-Hero{display: flex; width: 50%; justify-content: center; margin: auto; padding: 30px; transition-duration: 0.4s;}
+    .LDDVerify-Hero:hover{display: flex; width: 60%; justify-content: center; margin: auto; padding: 20px; transition-duration: 0.4s;}
+
+    .Issues-Home-Hero{display: flex; width: 60%; justify-content: center; margin: auto; padding: 30px; transition-duration: 0.4s;}
+    .Issues-Home-Hero:hover{display: flex; width: 70%; justify-content: center; margin: auto; padding: 20px; transition-duration: 0.4s;}
+
+    .RW-Home-Hero{display: flex; width: 80%; justify-content: center; margin: auto; ; padding: 30px; transition-duration: 0.4s;}
+    .RW-Home-Hero:hover{display: flex; width: 90%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
+
     }
 
 
@@ -139,14 +149,19 @@ a{text-decoration: none !important; color: #63615A;}
 
 a{text-decoration: none !important; color: #63615A !important;}
 
-.LDDVerify-Hero{display: flex; width: 50%; justify-content: center; margin: auto; padding: 20px; transition-duration: 0.4s;}
+.LDDVerify-Hero{display: flex; width: 50%; justify-content: center; margin: auto; padding: 30px; transition-duration: 0.4s;}
 .LDDVerify-Hero:hover{display: flex; width: 60%; justify-content: center; margin: auto; padding: 20px; transition-duration: 0.4s;}
 
-.Issues-Home-Hero{display: flex; width: 60%; justify-content: center; margin: auto; padding: 20px; transition-duration: 0.4s;}
+.Issues-Home-Hero{display: flex; width: 60%; justify-content: center; margin: auto; padding: 30px; transition-duration: 0.4s;}
 .Issues-Home-Hero:hover{display: flex; width: 70%; justify-content: center; margin: auto; padding: 20px; transition-duration: 0.4s;}
 
-.RW-Home-Hero{display: flex; width: 80%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
+.RW-Home-Hero{display: flex; width: 80%; justify-content: center; margin: auto; ; padding: 30px; transition-duration: 0.4s;}
 .RW-Home-Hero:hover{display: flex; width: 90%; justify-content: center; margin: auto; ; padding: 20px; transition-duration: 0.4s;}
+
+.issues-hero{width: 300px; margin-top: -40px;}
+.hero-image-container-issues{top: 160px; padding-bottom: 20px;}
+.verify-hero{width: 300px;}
+
 
 .page-texts{text-decoration: none !important; font-family: futura, open sans; color: #63615A; margin-bottom: -7px;}
 
@@ -159,7 +174,7 @@ a{text-decoration: none !important; color: #63615A !important;}
 /* Headers */
 .page-header{font-size: 20px; border-bottom: 1px solid;}
 .section-header{font-size: 14px;}
-
+.hero-image-container{top: 180px;}
 
 /* Home Page */
 .background-1{background-color: #C5BD9C; width: 300px; height: 750px; border-radius: 206pt 206pt 0pt 0pt; position: absolute; margin-top: 20pt;}
